@@ -5175,8 +5175,6 @@ MonoBehaviour:
   - {r: 0.4960918, g: 0.9339623, b: 0.3304112, a: 1}
   - {r: 0.9716981, g: 0.8079973, b: 0.30709326, a: 1}
   tileGroupCenterObj: {fileID: 603988641}
-  explosion: {fileID: 0}
-  tileSize: {x: 0, y: 0}
 --- !u!4 &585315853
 Transform:
   m_ObjectHideFlags: 0

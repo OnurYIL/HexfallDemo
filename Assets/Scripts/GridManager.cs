@@ -12,7 +12,9 @@ namespace HexFallDemo
         private CustomInputManager m_inputManager;
 
         public Text debugText, debugText1;
+
         public int totalScore;
+
         private bool spawnBomb = false;
 
         [Tooltip("The tile prefab.")]
@@ -32,10 +34,9 @@ namespace HexFallDemo
         [Tooltip("Object to be used as the center of the selection group. Needs to parent 3 border objects aswell.")]
         [SerializeField] private Transform tileGroupCenterObj;
 
-        [SerializeField] private ParticleSystem explosion;
         private UIController m_uiController;
 
-        public Vector2 tileSize;
+        private Vector2 tileSize;
         private Vector2 bottomLeft;
         private Vector2 lastTouchPosition;
 
@@ -383,7 +384,7 @@ namespace HexFallDemo
             {
                 totalScore++;
 
-                if (totalScore % 100 == 0)
+                if (totalScore % Values.BombSpawnScore == 0)
                     spawnBomb = true;
             }
 
