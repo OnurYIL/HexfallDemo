@@ -1,4 +1,9 @@
 # HexfallDemo
+
+<h4> Unity Version: 2018.3.12f1</h4>
+
+<h4>Platform: Android </h4>
+
 A demo project.
 
 Core mechanics: %100 working..
