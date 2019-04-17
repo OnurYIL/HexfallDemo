@@ -12,7 +12,7 @@ Grid system: %100 working..
 
 Scoring: %100 working..
 
-Bomb hexagon: %100 working..
+Bomb hexagon: %99 working..(Small issue: If another match happens right after a bomb is created, the game will lower the timer by 1.)
 
 Game over logic: There's a small bug on this issue. Sometimes algorithm will pick wrong 3 tiles as potential matches. This happens on 1-2 certain patterns only. Other than that it's also working perfectly.
 
